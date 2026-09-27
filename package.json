@@ -1,7 +1,7 @@
 {
-  "name": "cypress-beans",
+  "name": "cafeteria-e2e-cypress",
   "version": "1.0.0",
-  "description": "Coffee Shop Ordering System with Cypress E2E Test Suite",
+  "description": "Sistema de pedidos para cafeteria con pruebas automatizadas E2E en Cypress",
   "main": "server/index.ts",
   "scripts": {
     "dev:server": "tsx watch server/index.ts",

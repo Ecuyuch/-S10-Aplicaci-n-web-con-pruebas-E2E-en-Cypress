@@ -1,4 +1,4 @@
-# ☕ CypressBeans - Sistema de Pedidos de Cafetería & Suite E2E
+# ☕ Cafetería E2E - Sistema de Pedidos con Cypress
 
 Aplicación Full-Stack de extremo a extremo (E2E) para la gestión y realización de pedidos en una cafetería de especialidad, construida en **TypeScript**, **React**, **Node.js/Express** y con una suite completa de pruebas automatizadas en **Cypress**.
 
@@ -9,7 +9,7 @@ Aplicación Full-Stack de extremo a extremo (E2E) para la gestión y realizació
 El proyecto está diseñado bajo una arquitectura modular y desacoplada con TypeScript estricto de extremo a extremo.
 
 ```
-CypressBeans/
+cafeteria-e2e-cypress/
 ├── server/                    # Capa de Backend API (Express + Node.js)
 │   ├── index.ts               # Servidor HTTP en puerto 3001
 │   ├── db.ts                  # Persistencia en memoria con seeding y aislamiento
@@ -124,6 +124,6 @@ Para garantizar que cada prueba E2E sea **independiente y determinista**, el ser
 ## 5. Declaración sobre el Uso de Inteligencia Artificial (IA)
 
 En cumplimiento con los requerimientos de la evaluación:
-* **Herramienta utilizada**: Antigravity AI Assistant (Google DeepMind).
-* **Propósito y uso**: Se utilizó el asistente de IA para proponer la arquitectura inicial de componentes, estructurar la suite de pruebas E2E en TypeScript, diseñar selectores estables `data-cy` y formatear el pipeline de CI/CD en GitHub Actions.
+* **Herramientas utilizadas**: Antigravity AI Assistant y ChatGPT (OpenAI).
+* **Propósito y uso**: Se utilizaron herramientas de IA como apoyo para la revisión de los recorridos E2E, validación de selectores estables `data-cy`, interpretación de resultados y errores de Cypress, documentación y revisión de la configuración de GitHub Actions.
 * **Control y Determinismo**: Todas las sugerencias generadas fueron auditadas y ajustadas manualmente para asegurar pruebas 100% deterministas, sin esperas numéricas estáticas y con aislamiento estricto mediante endpoints de seeding.
